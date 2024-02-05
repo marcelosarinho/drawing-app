@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="node_modules/feather-icons/dist/feather.js"></script>
+    <title>Drawing App</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <input type="color" name="drawing-color" id="drawing-color" />
+        </li>
+        <li>
+          <input type="range" name="size" id="size" min="1" max="30" value="10" />
+        </li>
+        <li>
+          <button id="drawing-pencil">
+            <i data-feather="edit-2"></i>
+          </button>
+        </li>
+        <li>
+          <button id="drawing-circle">
+            <i data-feather="circle"></i>
+          </button>
+        </li>
+        <li>
+          <button id="drawing-rect">
+            <i data-feather="square"></i>
+          </button>
+        </li>
+        <li>
+          <button id="drawing-triangle">
+            <i data-feather="triangle"></i>
+          </button>
+        </li>
+        <li>
+          <button id="drawing-eraser">
+            <i data-feather="x-circle"></i>
+          </button>
+        </li>
+        <li>
+          <button id="download">
+            <i data-feather="download"></i>
+          </button>
+        </li>
+        <li>
+          <button id="clear-canvas">
+            <i data-feather="trash"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
