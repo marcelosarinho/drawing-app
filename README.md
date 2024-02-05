@@ -6,13 +6,21 @@
   - [Screenshot](#screenshot)
   - [Desenvolvido com](#desenvolvido-com)
   - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-continuo)
   - [Recursos úteis](#recursos-uteis)
 - [Autor](#autor)
-- [Reconhecimentos](#reconhecimentos)
 
 ## Geral
 
+Esse projeto é um site de desenho, onde o usuário pode:
+- Desenhar livremente
+- Desenhar com alguma forma (retângulo, triângulo ou círculo)
+- Escolher a cor do lápis do desenho
+- Escolher a grossura do lápis do desenho
+- Apagar com a borracha
+- Salvar o desenho
+- Limpar a tela do desenho
+
+Ele foi feito utilizando a biblioteca p5.js, uma biblioteca para programação criativa.
 
 ### Screenshot
 
